@@ -15,10 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    
-    - name: First interaction
-      uses: actions/first-interaction@v1.3.0
-        pr-message:'Greetings for new PR'
           
     - name: Set up Go
       uses: actions/setup-go@v4
